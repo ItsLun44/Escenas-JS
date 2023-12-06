@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.choza{
+    position: absolute;
+    top: 30rem;
+    left: 120rem;
+    width: 40rem;
+    z-index: 1;
+}
+
+.hojas{
+    position: absolute;
+    top: 30rem;
+    right: 35rem;
+    width: 130rem;
+    z-index: -1;
+}
+
+@keyframes move-hojas{
+    100%{
+
+    }
+}
+
+
+
